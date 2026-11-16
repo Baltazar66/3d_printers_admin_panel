@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@apocaliss92/nodetuya": "^0.2.1",
+    "@tuya/tuya-connector-nodejs": "^2.1.2"
+  }
+}

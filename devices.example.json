@@ -1,0 +1,20 @@
+{
+    "tuya_cloud": {
+        "base_url": "https://openapi.tuyaeu.com",
+        "access_id": "ВАШ_ID",
+        "access_secret": "ВАШ_SECRET"
+    },
+	 "scan": {
+        "ip_range": "192.168.0.100-115",
+        "rescan_after_plug_on_sec": 120
+    },
+     "plugs": [
+        {
+            "id": "ВАШ_ID",
+            "name": "Розетка1",
+            "switch_code": "switch_1",
+            "printer_ip": "IP_принтера_в_локальной_сети"
+        }
+    ],
+    "plug_poll_sec": 15
+}
